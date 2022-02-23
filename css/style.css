@@ -1,0 +1,152 @@
+* {
+
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+/* when we will use image */
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+} 
+
+/* background css code */
+.wrapper{
+
+	width: 100%;
+	
+background: linear-gradient(to right,#C1F4C5,#008E89);
+   padding: 100px 0px;
+}
+
+.form-box{
+	width: 1000px;
+	background-color: white;
+	margin: auto;
+    border-radius: 8px;
+}
+
+.form-row{
+	display: flex;
+
+}
+.form-left, .form-right{
+
+	flex-basis: 50%;
+	position: relative;
+}
+.desc{
+	position: absolute;
+	top: 6px;
+    left: 111px;
+	font-size: 20px;
+	font-weight: 400;
+	color: red;
+}
+
+.form-content{
+	padding: 40px 60px;
+}
+
+.form-content h2{
+
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 32px;
+	color: green;
+
+}
+
+.form-group{
+	margin: 16px 0px;
+	display: block;
+	width: 100%;
+}
+
+.box-size{
+
+	width: 94%;
+	padding: 14px 10px;
+}
+
+.d-flex{
+	display: flex;
+	justify-content: space-between;
+
+}
+.t-color{
+	color: green;
+
+}
+.t-color2{
+	color: red;
+	
+}
+.f-basis42{
+
+	flex-basis: 42%;
+}
+.f-basis48{
+
+	flex-basis: 48%;
+}
+
+.box-size:focus{
+	
+   
+  outline-color: green;
+
+  } 
+
+.box-size:focus::placeholder{
+	color: red;
+}
+
+.g-margin{
+	margin-right: 32px;
+	color: red;
+}
+
+.form-group span {
+	margin-right: 32px;
+	color: green;
+}
+
+.g-margin label{
+	margin-right: 16px;
+}
+
+.btn{
+	padding: 16px 24px;
+	border: none;
+	border-radius: 4px;
+	 color: green;
+	 text-transform: uppercase;
+}
+
+.right-align{
+	text-align: right;
+}
+.white{
+	background-color: white;
+	color: red;
+	box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}
+.green{
+	background-color: green;
+	color: red;
+	box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}
+.green:hover{
+	background-color: #FFA900;
+}
